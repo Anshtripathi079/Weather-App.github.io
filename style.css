@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+   
+}
+.content{
+    
+    background-color: azure;
+    /* width: 100%; */
+    padding: 2em;
+    border-radius: 30px;
+    /* width: 100px; */
+    /* ax-width: 420px;m */
+    margin: 1em;
+    width: 500px;
+}
+.search{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search{
+    font-size: 25px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom h2{
+    font-size: 40px;
+}
